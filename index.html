@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GASTO SEMANAL</title>
+  <!-- Custom Style -->
+  <link rel="stylesheet"  href="./css/style.css">
+  <!-- Foont Google -->
+  <link href="https://fonts.googleapis.com/css?family=Kodchasan&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Gasto Semanal</h1>
+  <div class="contenedor">
+    <div class="entrada-datos">
+      <h2>Ingresar Gastos</h2>
+      <form >
+        <label for="gasto">
+          Gasto:
+        </label>
+        <input type="text" placeholder="..." id="gasto" required>
+        <label for="cantidad">
+          Monto:
+        </label>
+        <input type="text" placeholder="..." id="cantidad" required>
+        <input type="submit" value="Enviar" class="btn">
+      </form>
+    </div>
+
+    <div class="salida-datos">
+      <h2>Detalles de gastos</h2>
+      <div class="cantidad">
+       
+      </div>
+      <div class="presupuesto">
+        
+      </div>
+      <div class="saldo">
+        
+      </div>
+      <button class="btn-borrar">Borrar Todo</button>
+    </div>
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+</html>
